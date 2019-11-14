@@ -37,7 +37,7 @@ public static void main(String[] args) {
 		driver.findElement(By.name("password")).sendKeys("Shankari123");
 		driver.findElement(By.name("confirmation")).sendKeys("Shankari123");
 		
-    WebElement submitButton = driver.findElement(By.xpath("//button[@type='submit']"));
+  		WebElement submitButton = driver.findElement(By.xpath("//button[@type='submit']"));
 		submitButton.click();
 		System.out.println(submitButton.isSelected());
 		
